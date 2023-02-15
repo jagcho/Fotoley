@@ -1,0 +1,285 @@
+.body {
+    position: relative;
+    width: 1300px;
+    height: 600px;
+
+    margin: 0px;
+
+    background: #FFFFFF;
+}
+
+.body-left {}
+
+.body-right {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 600px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/jack-dong-5PobvxwkPOg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.name {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 180px;
+    top: 281px;
+
+    background: #FFFFFF;
+    border-bottom: 1px solid #7057D9;
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 246px;
+    height: 48px;
+    left: 221px;
+    top: 651px;
+    background: #7057D9;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 180px;
+    top: 353px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #7057D9;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.password {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 180px;
+    top: 425px;
+
+    background: #FFFFFF;
+    border-bottom: 1px solid #7057D9;
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+.cpassword {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 180px;
+    top: 497px;
+
+    background: #FFFFFF;
+    border-bottom: 1px solid #7057D9;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.welcome {
+    position: absolute;
+    width: 324px;
+    height: 33px;
+    left: 182px;
+    top: 176px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #7057D9;
+}
+
+.up-para {
+    position: absolute;
+    width: 325px;
+    height: 32px;
+    left: 184px;
+    top: 217px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #7057D9;
+}
+
+.down-para {
+    position: absolute;
+    width: 335px;
+    height: 32px;
+    left: 180px;
+    top: 563px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #757575;
+}
+
+.already {
+    position: absolute;
+    width: 137px;
+    height: 16px;
+    left: 245px;
+    top: 747px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #535252;
+}
+
+.loginbtn {
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 386px;
+    top: 747px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #7057D9;
+}
+
+.image-center {
+    position: absolute;
+    width: 462px;
+    height: 610.23px;
+    left: 888px;
+    top: 161px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.tick-mark {
+    position: absolute;
+    left: 12%;
+    right: 86.71%;
+    top: 66.96%;
+    bottom: 3.12%;
+
+    border: 2px solid #7057D9;
+    border-radius: 1px;
+}
+
+.Rem {
+    position: absolute;
+    left: 14.02%;
+    right: 7.89%;
+    top: 80.5%;
+    bottom: 50.61%;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #212626;
+}
+
+.Forget {
+    position: absolute;
+    width: 113px;
+    height: 19px;
+    left: 410px;
+    top: 485px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #EF5B5B;
+}
+
+.community {
+
+    width: 27px;
+    height: 43px;
+    left: 200px;
+    top: 50px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    /* or 38% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.file {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 29px;
+    gap: 4px;
+
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 1080px;
+    top: 6px;
+
+    background: #7057D9;
+    border-radius: 8px;
+}
+
+.textarea {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    padding: 11px 29px;
+    gap: 4px;
+}
